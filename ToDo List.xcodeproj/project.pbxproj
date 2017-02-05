@@ -13,6 +13,7 @@
 		7A28274D1E3FD2C400A18862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A28274B1E3FD2C400A18862 /* Main.storyboard */; };
 		7A28274F1E3FD2C400A18862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A28274E1E3FD2C400A18862 /* Assets.xcassets */; };
 		7A2827521E3FD2C400A18862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2827501E3FD2C400A18862 /* LaunchScreen.storyboard */; };
+		7A28275B1E4755B000A18862 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A28275A1E4755B000A18862 /* MainTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7A28274E1E3FD2C400A18862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A2827511E3FD2C400A18862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A2827531E3FD2C400A18862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2827591E4755B000A18862 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		7A28275A1E4755B000A18862 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				7A2827501E3FD2C400A18862 /* LaunchScreen.storyboard */,
 				7A2827531E3FD2C400A18862 /* Info.plist */,
 				7A2827421E3FD2C400A18862 /* Supporting Files */,
+				7A2827591E4755B000A18862 /* MainTableViewController.h */,
+				7A28275A1E4755B000A18862 /* MainTableViewController.m */,
 			);
 			path = "ToDo List";
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A28275B1E4755B000A18862 /* MainTableViewController.m in Sources */,
 				7A28274A1E3FD2C400A18862 /* ViewController.m in Sources */,
 				7A2827471E3FD2C400A18862 /* AppDelegate.m in Sources */,
 				7A2827441E3FD2C400A18862 /* main.m in Sources */,
